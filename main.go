@@ -35,5 +35,5 @@ func main() {
 		c.IndentedJSON(http.StatusOK, "Hello, welcome to the amazon web scraping service")
 	})
 	router.GET("/scrape/:query", scrapeRequestHandler)
-	router.Run("localhost:8000")
+	router.Run("localhost:3000")
 }
